@@ -1,0 +1,57 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #2f2f2f;
+}
+
+i {
+	display: flex;
+	font-size: 1.3rem;
+	cursor: pointer;
+}
+
+.text-shadow {
+	text-shadow: 3px 3px 3px #000a;
+}
+
+.text-shadow-sm {
+	text-shadow: 1px 1px 3px #000a;
+}
+
+.box-shadow {
+	box-shadow: 2px 2px 5px #0003;
+}
+
+.nunito {
+	font-family: 'Nunito', sans-serif;
+}
+
+textarea {
+	font-family: 'Nunito', sans-serif;
+	color: #2f2f2f;
+	outline: none;
+}
+
+textarea::-webkit-input-placeholder {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+textarea::-webkit-scrollbar {
+	display: none;
+}
